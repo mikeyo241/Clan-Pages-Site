@@ -1,0 +1,251 @@
+/*   Alpha's css !!! */
+@font-face{
+    font-family: clash;
+    src: url(clash.ttf);
+}
+body {
+    font-family: clash;
+    background-color: #f2f2f2;
+    color: #99cccc;
+    font-size: 12px;
+}
+header {
+    height: 50px;
+    background-color: #52627b;
+}
+#chosenClan  {
+    background-color: #52627b;
+    color: #99cccc;
+    font-weight: bold;
+}
+#clanText {
+    display: none;
+}
+#clashLogo {
+    position: absolute;
+    left: 40%;
+    width: 4.8em;
+}
+#clan {
+    position: absolute;
+    left: 11%;
+    top: 15px;
+    font-size: 25px;
+}
+#Pages {
+    position: absolute;
+    left: 60%;
+    top: 15px;
+    font-size: 25px;
+}
+#main {
+    background-color: white;
+    margin: auto;
+    padding: 2px 15px 15px;
+}
+#login{
+    display: none;
+}
+#clanPagesSmall {
+    padding: 2px 15px 15px;
+}
+#clanPagesSmall input {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 1px;
+    font-weight: bold;
+}
+#smallResults input {
+    height: 20px;
+    text-align: left;
+    background-color: #52627b;
+    color: #99cccc;
+    font-weight: bold;
+}
+#findSubmit {
+    background-color: #52627b;
+    color: #99cccc;
+    font-weight: bold;
+}
+#createNewAccount {
+    background-color: #ff9933;
+    color: #52627b;
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 1px;
+}
+
+#clanPages {
+    display: none;
+}
+#loginSmall {
+    padding: 15px 15px 2px;
+    display: block;
+    text-align: center;
+}
+#loginSmall input {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 1px;
+}
+#loginSmall a {
+    text-decoration: none;
+}
+#loginSubmit{
+    background-color: #52627b;
+    color: #99cccc;
+    font-weight: bold;
+}
+
+
+
+#signUp{
+    display: none;
+}
+
+a {
+    color: #99cccc;
+}
+table {
+    color: #99cccc;
+}
+
+@media screen and (min-width: 1000px){
+    /* Start min Size stuff */
+    #createNewAccount, #clanPagesSmall, #Clan, #Pages, #loginSmall {
+        display: none;
+    }
+    #main {
+        background-color: transparent;
+    }
+
+    body {
+        color: black;
+        margin: auto;
+        display: block;
+        font-size: 12px;
+        font-family: clash;
+        background-color: #f2f2f2;
+    }
+
+    /*login table Styles */
+    header{
+        display: block;
+        width: 100%;
+        height: 100px;
+        background-color: #52627b;
+    }
+
+    #loginTable {
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+    #signUp {
+        display: block;
+    }
+    #forgotRow {
+        height: 3px;
+    }
+    #clashLogo {
+        position: absolute;
+        left: 45%;
+        top: 5px;
+        width: 3em;
+    }
+    #clanText {
+        display: block;
+        width: 10em;
+        margin-left: 10%;
+    }
+
+
+    #login {
+        display: block;
+        float: right;
+        margin-right: 50px;
+    }
+    #title {
+        width: 655px;
+        font-size: 40px;
+        margin: 20px;
+        float: left;
+
+    }
+
+    /*   ***  Body Styles  ***  */
+    #main {
+        clear:both;
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+    }
+    #clanPages {
+        display: block;
+        margin: 10px auto 10px 30px;
+        width: 40%;
+        float: left;
+    }
+    #clanPages h1 {
+        font-size: 35px;
+    }
+    #clanPages table {
+        width: 100%;
+    }
+    section{			/* Create Account Section */
+
+        display: block;
+        width: 45%;
+        margin: 10px 30px 10px auto;
+        float: right;
+
+    }
+    section h2 {
+        text-align: center;
+    }
+    section input {
+        font-size: 20px;
+        width: 100%;
+        height:40px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    section table {
+        width:90%;
+
+    }
+
+    /*   ** Table Styles **  */
+    table{
+        font-size: 12px;
+        color: black;
+
+    }
+    a {
+        margin-top: 2px;
+        padding-top: 2px;
+        text-decoration: none;
+        color: black;
+        font-weight: normal;
+        font-size: 9px;
+    }
+
+    #search {
+        width: 100%;
+        height: 2.5em;
+
+    }
+    #findSubmit {
+        width: 70px;
+        margin-left: -70px;
+        height: 2.5em;
+        background-color: #52627b;
+        color: #99cccc;
+        font-weight: bold;
+    }
+
+
+}

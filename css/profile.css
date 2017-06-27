@@ -1,0 +1,89 @@
+@font-face{
+    font-family: clash;
+    src: url(clash.ttf);
+}
+body {
+    margin: auto;
+    background-color: #d5dce4;
+    font-family: clash;
+    color: black;
+}
+
+/*   Header Styles  */
+header {
+    height: 50px;
+    background-color: #52627b;
+    overflow: hidden;
+
+}
+#menuButton {
+    position: absolute;
+    left: 5%;
+    top: 10px;
+    height: 25px;
+}
+#middleLogo {
+    position: absolute;
+    left: 40%;
+    width: 4.8em;
+
+}
+#userNameBox {
+    float: right;
+    margin-right: 10px;
+
+
+
+}
+#logout {
+    height: 16px;
+    font-size: 10px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+/*** End Header Styles ***/
+
+
+/*** Update, Delete, or Create a clan ***/
+
+#updateClan {
+    background-color: white;
+    border-radius: 30px;
+    margin: 40px auto auto auto;
+    padding: 10px;
+    width: 80%;
+
+    text-align: center;
+
+}
+#updateClan p, h1 {
+    margin: auto;
+}
+h1 {
+    margin: 20px auto auto auto;
+}
+
+h4 {
+    margin: auto auto 20px auto;
+    color: #52627b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

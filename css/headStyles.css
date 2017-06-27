@@ -1,0 +1,39 @@
+@font-face{
+    font-family: clash;
+    src: url(clash.ttf);
+}
+body {
+    background-color: #f2f2f2;
+    font-family: clash;
+    margin: 0px;
+    text-align: center;
+}
+header {
+    background-color: #52627b;
+    width: 100%;
+    height: 48px;
+    position: fixed;
+    top: 0px;
+}
+#logo {
+    width: 2.5em;
+    position: fixed;
+    left: 2%;
+    top: 1px;
+    z-index: 288;
+}
+#clanName {
+    color: #99cccc;
+    width: 243px;
+    z-index: 20;
+    position: fixed;
+    top: 12px;
+    left: 15%;
+    text-align: center;
+}
+div.nav-menu li input {
+    width: 100%;
+    font-size: 17px;
+    background-color: #52627b;
+    color: #99cccc;
+}

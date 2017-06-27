@@ -1,0 +1,73 @@
+/*   Alpha's css !!! */
+@font-face{
+    font-family: clash;
+    src: url(clash.ttf);
+}
+body {
+    font-family: clash;
+    background-color: #f2f2f2;
+    font-size: 12px;
+    padding: 2px;
+    margin: auto;
+}
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #52627b;
+}
+#signUp {
+    display: block;
+    text-align: center;
+    background-color: #e7ecf2;
+    border-radius: 20px;
+    width: 85%;
+    margin: 50px auto auto auto;
+    padding: 10px;
+}
+
+#clashLogo {
+    position: absolute;
+    left: 33%;
+    width: 4.8em;
+}
+#clan {
+    color: #99cccc;
+    position: absolute;
+    left: 8%;
+    top: 15px;
+    font-size: 22px;
+}
+#Pages {
+    color: #99cccc;
+    position: absolute;
+    left: 54%;
+    top: 15px;
+    font-size: 22px;
+}
+
+#createSubmit, #returnHome {
+    background-color: #52627b;
+    color: #99cccc;
+    font-weight: bold;
+}
+
+
+#clanPages {
+    display: none;
+}
+
+a {
+    color: #99cccc;
+}
+table {
+    width: 100%;
+    color: #99cccc;
+}
+input {
+    width: 95%;
+    margin: auto;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
